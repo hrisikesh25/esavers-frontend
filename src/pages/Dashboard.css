@@ -1,0 +1,38 @@
+/* Dashboard.css */
+.dashboard {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dashboard-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+}
+
+.dashboard-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+.dashboard-nav a:hover {
+    text-decoration: underline;
+}
+
+.dashboard-main {
+    padding: 20px;
+}
+
+.dashboard-main h2 {
+    color: #555;
+}

@@ -1,0 +1,27 @@
+/* RiskAnalysis.css */
+.risk-analysis {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.risk-analysis-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.risk-analysis-header h1 {
+    margin: 0;
+}
+
+.risk-analysis-main {
+    padding: 20px;
+}
+
+.risk-analysis-main h2 {
+    color: #555;
+}

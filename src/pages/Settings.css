@@ -1,0 +1,27 @@
+/* Settings.css */
+.settings {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.settings-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.settings-header h1 {
+    margin: 0;
+}
+
+.settings-main {
+    padding: 20px;
+}
+
+.settings-main h2 {
+    color: #555;
+}
