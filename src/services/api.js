@@ -1,8 +1,9 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000', // Replace with your backend URL
+    baseURL: 'https://esavers-backend.vercel.app/api', // Ensure /api is included
 });
 
-export const loginUser = (data) => API.post('/login', data);
-export const fetchHealthData = () => API.get('/health-data');
+// Example API calls (adjust based on your backend routes)
+export const loginUser = (data) => API.post('/auth/login', data); // If you have authentication
+export const fetchHealthData = () => API.get('/analysis/health-data'); // If health data is under /analysis
