@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'https://esavers-backend.onrender.com', // Ensure /api is included
+    baseURL: 'http://localhost:5000/api/login', // Ensure /api is included
 });
 
 // Example API calls (adjust based on your backend routes)
